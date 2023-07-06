@@ -1,0 +1,2167 @@
+[
+    {
+        "id": "5b759712495d264a",
+        "type": "tab",
+        "label": "MAIN Flow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "2c1003ca23d07d9b",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c569be30c6cb1fe8",
+        "type": "subflow",
+        "name": "Temp UI",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "cb58145d8ccd86ce"
+                    },
+                    {
+                        "id": "642d6018d791d527"
+                    }
+                ]
+            }
+        ],
+        "out": [],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "a30ee2bb8d3f3da5",
+        "type": "subflow",
+        "name": "Humid UI",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "1060daa0d8623a0b"
+                    },
+                    {
+                        "id": "8632f630140bec5b"
+                    }
+                ]
+            }
+        ],
+        "out": [],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "47b6ba303a434566",
+        "type": "subflow",
+        "name": "Outside UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 500,
+                "y": 60,
+                "wires": [
+                    {
+                        "id": "e3cf9d6ce8145a5c",
+                        "port": 0
+                    },
+                    {
+                        "id": "f93acc1e8761e28f",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 500,
+                "y": 240,
+                "wires": [
+                    {
+                        "id": "428d4ff6108dfd48",
+                        "port": 0
+                    },
+                    {
+                        "id": "b74d91d2abd78fe8",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "eba0b407b1a8ffc2",
+        "type": "subflow",
+        "name": "Living Room UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 320,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "b9c35572c0095cf3",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "9d09bf3aec710554",
+        "type": "subflow",
+        "name": "BedRoom 1 UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 320,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "db7c5412aefaa782",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "3cacdb278b776ef1",
+        "type": "subflow",
+        "name": "BedRoom 2 UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 320,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "899b40a182f08fdd",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "fef3cf30b8da0d20",
+        "type": "subflow",
+        "name": "Kitchen UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 340,
+                "y": 60,
+                "wires": [
+                    {
+                        "id": "ed801028590f01fb",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 420,
+                "y": 160,
+                "wires": [
+                    {
+                        "id": "961bdf9964cc8387",
+                        "port": 0
+                    },
+                    {
+                        "id": "f2eaf117723a1bf8",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 420,
+                "y": 280,
+                "wires": [
+                    {
+                        "id": "ac97e2b2a6e879eb",
+                        "port": 0
+                    },
+                    {
+                        "id": "e5ad6ab0d4920374",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "ee9530e71a530a70",
+        "type": "subflow",
+        "name": "RestRoom UI",
+        "info": "",
+        "category": "",
+        "in": [],
+        "out": [
+            {
+                "x": 380,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "32217ee9ab8b19ed",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 380,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "4a56d05d6622dfb5",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "d1d54055a7ce3bcf",
+        "type": "subflow",
+        "name": "Gas Sensor Noti",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "cc84bd902d93372b"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 640,
+                "y": 120,
+                "wires": [
+                    {
+                        "id": "1ccfa5cbccea0c10",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "e186565c3be2f880",
+        "type": "subflow",
+        "name": "Fire Sensor Noti",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 80,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "dce4df1398b1c367"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 540,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "e1352726f798628e",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "9b4e0d986f0ee2c3",
+        "type": "subflow",
+        "name": "Rain Sensor Noti",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "5645161c54ed1ce5"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 560,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "c814a9ca4be262de",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "b6ced6d5.137c9",
+        "type": "group",
+        "z": "2c1003ca23d07d9b",
+        "name": "Switch",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c0a3bab.5bd1e48",
+            "f04e5649.39e428",
+            "7345f52c.34feb4",
+            "36ee14c0.68effc",
+            "1d15c663.aca6c2",
+            "b5998821.972a18",
+            "c77a85c4.f51ad8"
+        ],
+        "x": 34,
+        "y": 79
+    },
+    {
+        "id": "6f2e79be73ba9c77",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0b7739c70e1dcaf8",
+        "type": "ui_group",
+        "z": "c569be30c6cb1fe8",
+        "name": "TEMPERATURE",
+        "tab": "381d8cc9f3843603",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "58d26747a587debb",
+        "type": "ui_group",
+        "z": "a30ee2bb8d3f3da5",
+        "name": "HUMIDITY",
+        "tab": "381d8cc9f3843603",
+        "order": 2,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "a3c800a2f7b5caa9",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "381d8cc9f3843603",
+        "type": "ui_tab",
+        "name": "NT114 SmartHome Remote Control",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "393ce5229568d826",
+        "type": "ui_group",
+        "name": "LIVING ROOM",
+        "tab": "381d8cc9f3843603",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "b28af24930fb972c",
+        "type": "ui_group",
+        "name": "BEDROOM 1",
+        "tab": "381d8cc9f3843603",
+        "order": 4,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "96e91b85fd490aee",
+        "type": "ui_group",
+        "name": "BEDROOM 2",
+        "tab": "381d8cc9f3843603",
+        "order": 5,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "fee8bc4c5451490d",
+        "type": "ui_group",
+        "name": "KITCHEN",
+        "tab": "381d8cc9f3843603",
+        "order": 6,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "9d91e53c195c41c4",
+        "type": "ui_group",
+        "name": "RESTROOM",
+        "tab": "381d8cc9f3843603",
+        "order": 7,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "6f8451aae6e59a54",
+        "type": "ui_group",
+        "name": "OUTSIDE",
+        "tab": "381d8cc9f3843603",
+        "order": 8,
+        "disp": true,
+        "width": "7",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "9158102d978adde5",
+        "type": "telegram bot",
+        "botname": "NT114_IoT - 20521071",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "cb58145d8ccd86ce",
+        "type": "ui_gauge",
+        "z": "c569be30c6cb1fe8",
+        "name": "",
+        "group": "0b7739c70e1dcaf8",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "℃",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 210,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "642d6018d791d527",
+        "type": "ui_chart",
+        "z": "c569be30c6cb1fe8",
+        "name": "",
+        "group": "0b7739c70e1dcaf8",
+        "order": 2,
+        "width": 4,
+        "height": 3,
+        "label": "Temperature Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 230,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1060daa0d8623a0b",
+        "type": "ui_gauge",
+        "z": "a30ee2bb8d3f3da5",
+        "name": "",
+        "group": "58d26747a587debb",
+        "order": 1,
+        "width": 3,
+        "height": 3,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 200,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "8632f630140bec5b",
+        "type": "ui_chart",
+        "z": "a30ee2bb8d3f3da5",
+        "name": "",
+        "group": "58d26747a587debb",
+        "order": 2,
+        "width": 4,
+        "height": 3,
+        "label": "Humidity Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f93acc1e8761e28f",
+        "type": "ui_switch",
+        "z": "47b6ba303a434566",
+        "name": "",
+        "label": "AUTO LIGHTING",
+        "tooltip": "",
+        "group": "6f8451aae6e59a54",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "false",
+        "onvalueType": "bool",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "true",
+        "offvalueType": "bool",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": true,
+        "className": "",
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "51b15260de13d9dd"
+            ]
+        ]
+    },
+    {
+        "id": "e3cf9d6ce8145a5c",
+        "type": "ui_switch",
+        "z": "47b6ba303a434566",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "6f8451aae6e59a54",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 370,
+        "y": 60,
+        "wires": [
+            []
+        ],
+        "inputLabels": [
+            "in"
+        ],
+        "outputLabels": [
+            "out"
+        ]
+    },
+    {
+        "id": "51b15260de13d9dd",
+        "type": "change",
+        "z": "47b6ba303a434566",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "e3cf9d6ce8145a5c"
+            ]
+        ]
+    },
+    {
+        "id": "428d4ff6108dfd48",
+        "type": "ui_switch",
+        "z": "47b6ba303a434566",
+        "name": "",
+        "label": "DISABLE RAIN SENSOR",
+        "tooltip": "",
+        "group": "6f8451aae6e59a54",
+        "order": 3,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "disable",
+        "onvalueType": "str",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "enable",
+        "offvalueType": "str",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b74d91d2abd78fe8",
+        "type": "ui_button",
+        "z": "47b6ba303a434566",
+        "name": "",
+        "group": "6f8451aae6e59a54",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "STOP MOTOR",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop action",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9c35572c0095cf3",
+        "type": "ui_switch",
+        "z": "eba0b407b1a8ffc2",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "393ce5229568d826",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db7c5412aefaa782",
+        "type": "ui_switch",
+        "z": "9d09bf3aec710554",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "b28af24930fb972c",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "899b40a182f08fdd",
+        "type": "ui_switch",
+        "z": "3cacdb278b776ef1",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "96e91b85fd490aee",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ed801028590f01fb",
+        "type": "ui_switch",
+        "z": "fef3cf30b8da0d20",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "fee8bc4c5451490d",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac97e2b2a6e879eb",
+        "type": "ui_switch",
+        "z": "fef3cf30b8da0d20",
+        "name": "",
+        "label": "DISABLE FIRE SENSOR",
+        "tooltip": "",
+        "group": "fee8bc4c5451490d",
+        "order": 4,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "disable",
+        "onvalueType": "str",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "enable",
+        "offvalueType": "str",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e5ad6ab0d4920374",
+        "type": "ui_button",
+        "z": "fef3cf30b8da0d20",
+        "name": "",
+        "group": "fee8bc4c5451490d",
+        "order": 5,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "STOP BUZZER",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop action",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 160,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "961bdf9964cc8387",
+        "type": "ui_switch",
+        "z": "fef3cf30b8da0d20",
+        "name": "",
+        "label": "DISABLE GAS SENSOR",
+        "tooltip": "",
+        "group": "fee8bc4c5451490d",
+        "order": 2,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "disable",
+        "onvalueType": "str",
+        "onicon": "check",
+        "oncolor": "green",
+        "offvalue": "enable",
+        "offvalueType": "str",
+        "officon": "close",
+        "offcolor": "red",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f2eaf117723a1bf8",
+        "type": "ui_button",
+        "z": "fef3cf30b8da0d20",
+        "name": "",
+        "group": "fee8bc4c5451490d",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "passthru": false,
+        "label": "STOP AIR VENT FAN",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "stop action",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "32217ee9ab8b19ed",
+        "type": "ui_switch",
+        "z": "ee9530e71a530a70",
+        "name": "",
+        "label": "LIGHT",
+        "tooltip": "",
+        "group": "9d91e53c195c41c4",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4a56d05d6622dfb5",
+        "type": "ui_switch",
+        "z": "ee9530e71a530a70",
+        "name": "",
+        "label": "AIR VENT FAN",
+        "tooltip": "",
+        "group": "9d91e53c195c41c4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1ccfa5cbccea0c10",
+        "type": "function",
+        "z": "d1d54055a7ce3bcf",
+        "name": "Send Msg",
+        "func": "msg.payload = {}\nmsg.payload.chatId = [6063918649]\nmsg.payload.type = \"message\"\nmsg.payload.content = \"Alert!!! \\nGas leak found!!!\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cc84bd902d93372b",
+        "type": "switch",
+        "z": "d1d54055a7ce3bcf",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "1ccfa5cbccea0c10"
+            ]
+        ]
+    },
+    {
+        "id": "e1352726f798628e",
+        "type": "function",
+        "z": "e186565c3be2f880",
+        "name": "Send Msg",
+        "func": "msg.payload = {}\nmsg.payload.chatId = 6063918649\nmsg.payload.type = \"message\"\nmsg.payload.content = \"Alert!!! \\nFire found!!!\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dce4df1398b1c367",
+        "type": "switch",
+        "z": "e186565c3be2f880",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "e1352726f798628e"
+            ]
+        ]
+    },
+    {
+        "id": "c814a9ca4be262de",
+        "type": "function",
+        "z": "9b4e0d986f0ee2c3",
+        "name": "Send Msg",
+        "func": "msg.payload = {}\nmsg.payload.chatId = 6063918649\nmsg.payload.type = \"message\"\nmsg.payload.content = \"Be Careful!!! \\nIt's raining outside!\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5645161c54ed1ce5",
+        "type": "switch",
+        "z": "9b4e0d986f0ee2c3",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "c814a9ca4be262de"
+            ]
+        ]
+    },
+    {
+        "id": "643dea05fd6a1b14",
+        "type": "aedes broker",
+        "z": "5b759712495d264a",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 250,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b8f591e5cb0ff7a8",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "livingroom/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1120,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "554c53fefadb778a",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "general/dht11/temperature",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [
+                "7e3d38106b86a2b2"
+            ]
+        ]
+    },
+    {
+        "id": "59a7237f6e010dfd",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "general/dht11/humidity",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 120,
+        "wires": [
+            [
+                "d8abd723fb781ac7"
+            ]
+        ]
+    },
+    {
+        "id": "7e3d38106b86a2b2",
+        "type": "subflow:c569be30c6cb1fe8",
+        "z": "5b759712495d264a",
+        "name": "Temp UI",
+        "x": 380,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d8abd723fb781ac7",
+        "type": "subflow:a30ee2bb8d3f3da5",
+        "z": "5b759712495d264a",
+        "name": "Humid UI",
+        "x": 380,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "515587ec18468fc2",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "bedroom1/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1120,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "6a2bce3cfee0f02d",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "kitchen/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1110,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "3307bb6b4f7d87ab",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "bedroom2/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d0e3e30dd66d3763",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "restroom/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1120,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "82f5ceb3ceba0542",
+        "type": "debug",
+        "z": "5b759712495d264a",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "17775670723ca3d2",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "outside/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1110,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "937533fe86e3bfa3",
+        "type": "subflow:47b6ba303a434566",
+        "z": "5b759712495d264a",
+        "name": "Outside UI",
+        "x": 860,
+        "y": 740,
+        "wires": [
+            [
+                "17775670723ca3d2"
+            ],
+            [
+                "399f5f83e6de7fdf"
+            ]
+        ]
+    },
+    {
+        "id": "23da9b80d2639764",
+        "type": "subflow:eba0b407b1a8ffc2",
+        "z": "5b759712495d264a",
+        "name": "Living Room UI",
+        "x": 880,
+        "y": 120,
+        "wires": [
+            [
+                "b8f591e5cb0ff7a8"
+            ]
+        ]
+    },
+    {
+        "id": "a1c28adbf2c760d8",
+        "type": "subflow:9d09bf3aec710554",
+        "z": "5b759712495d264a",
+        "name": "BedRoom 1 UI",
+        "x": 880,
+        "y": 200,
+        "wires": [
+            [
+                "515587ec18468fc2"
+            ]
+        ]
+    },
+    {
+        "id": "1bb1a82dcf012b9f",
+        "type": "subflow:3cacdb278b776ef1",
+        "z": "5b759712495d264a",
+        "name": "BedRoom 2 UI",
+        "x": 880,
+        "y": 280,
+        "wires": [
+            [
+                "3307bb6b4f7d87ab"
+            ]
+        ]
+    },
+    {
+        "id": "bea3be26b87e4f3e",
+        "type": "subflow:fef3cf30b8da0d20",
+        "z": "5b759712495d264a",
+        "name": "Kitchen UI",
+        "x": 860,
+        "y": 420,
+        "wires": [
+            [
+                "6a2bce3cfee0f02d"
+            ],
+            [
+                "ccb5686f4318573b"
+            ],
+            [
+                "5e6af91c8a074a24"
+            ]
+        ]
+    },
+    {
+        "id": "c382c4a8ae7f76ac",
+        "type": "subflow:ee9530e71a530a70",
+        "z": "5b759712495d264a",
+        "name": "RestRoom UI",
+        "x": 870,
+        "y": 600,
+        "wires": [
+            [
+                "d0e3e30dd66d3763"
+            ],
+            [
+                "7b5c607f3c45f190"
+            ]
+        ]
+    },
+    {
+        "id": "1356d1a88d2256e1",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "from-esp32",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 870,
+        "y": 40,
+        "wires": [
+            [
+                "82f5ceb3ceba0542"
+            ]
+        ]
+    },
+    {
+        "id": "7b5c607f3c45f190",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "restroom/vent",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1120,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "812238639f526dfb",
+        "type": "function",
+        "z": "5b759712495d264a",
+        "name": "Reply Msg",
+        "func": "const input = msg.payload\nvar chatId = input.chatId\n\nmsg.payload = {}\nmsg.payload.chatId = chatId\nmsg.payload.type = \"message\"\nmsg.payload.content = \"Hello, \\nWelcome to the SmartHome Remote Control Major Project, made by Nguyễn Phan Đức Anh - 20521071 and Trần Thị Quế Chi - 20521132. \\nAccess Dashboard: http://34.125.252.87:1880/ui/\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 660,
+        "wires": [
+            [
+                "a804de68b979a175",
+                "82f5ceb3ceba0542"
+            ]
+        ]
+    },
+    {
+        "id": "a804de68b979a175",
+        "type": "telegram sender",
+        "z": "5b759712495d264a",
+        "name": "NT114 Telegram",
+        "bot": "9158102d978adde5",
+        "haserroroutput": true,
+        "outputs": 2,
+        "x": 640,
+        "y": 360,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "93014f083d1c4479",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "general/gasSensor",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 280,
+        "wires": [
+            [
+                "6805994d8a6be1c8"
+            ]
+        ]
+    },
+    {
+        "id": "b98822f731f49d32",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "general/fireSensor",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 360,
+        "wires": [
+            [
+                "ec3c869dba0d55bf"
+            ]
+        ]
+    },
+    {
+        "id": "1efb0a020292c678",
+        "type": "mqtt in",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "general/rainSensor",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "a3c800a2f7b5caa9",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 440,
+        "wires": [
+            [
+                "7f1a110fe1f25559"
+            ]
+        ]
+    },
+    {
+        "id": "5e6af91c8a074a24",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "kitchen/fireSensor",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1130,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "ccb5686f4318573b",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "kitchen/gasSensor",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1130,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "399f5f83e6de7fdf",
+        "type": "mqtt out",
+        "z": "5b759712495d264a",
+        "name": "",
+        "topic": "outside/rainSensor",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a3c800a2f7b5caa9",
+        "x": 1130,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "f430718190a48387",
+        "type": "inject",
+        "z": "5b759712495d264a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 90,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1dd260e211003a6f",
+        "type": "inject",
+        "z": "5b759712495d264a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 90,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6805994d8a6be1c8",
+        "type": "subflow:d1d54055a7ce3bcf",
+        "z": "5b759712495d264a",
+        "name": "Gas Sensor Noti",
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "a804de68b979a175"
+            ]
+        ]
+    },
+    {
+        "id": "ec3c869dba0d55bf",
+        "type": "subflow:e186565c3be2f880",
+        "z": "5b759712495d264a",
+        "name": "Fire Sensor Noti",
+        "x": 400,
+        "y": 360,
+        "wires": [
+            [
+                "a804de68b979a175"
+            ]
+        ]
+    },
+    {
+        "id": "7f1a110fe1f25559",
+        "type": "subflow:9b4e0d986f0ee2c3",
+        "z": "5b759712495d264a",
+        "name": "Rain Sensor Noti",
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "a804de68b979a175"
+            ]
+        ]
+    },
+    {
+        "id": "4e7d339467f259da",
+        "type": "telegram receiver",
+        "z": "5b759712495d264a",
+        "name": "NT114 Telegram",
+        "bot": "9158102d978adde5",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 100,
+        "y": 660,
+        "wires": [
+            [
+                "812238639f526dfb",
+                "82f5ceb3ceba0542"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c0a3bab.5bd1e48",
+        "type": "ui_switch",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "label": "Switch",
+        "tooltip": "",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "f04e5649.39e428"
+            ]
+        ]
+    },
+    {
+        "id": "f04e5649.39e428",
+        "type": "debug",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 810,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7345f52c.34feb4",
+        "type": "ui_button",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Enable Button",
+        "tooltip": "",
+        "color": "green",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "settings",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "1d15c663.aca6c2"
+            ]
+        ]
+    },
+    {
+        "id": "36ee14c0.68effc",
+        "type": "ui_button",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Disable Button",
+        "tooltip": "",
+        "color": "red",
+        "bgcolor": "white",
+        "className": "",
+        "icon": "settings",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "1d15c663.aca6c2"
+            ]
+        ]
+    },
+    {
+        "id": "1d15c663.aca6c2",
+        "type": "change",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enabled",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    },
+    {
+        "id": "b5998821.972a18",
+        "type": "ui_button",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set State True",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 160,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    },
+    {
+        "id": "c77a85c4.f51ad8",
+        "type": "ui_button",
+        "z": "2c1003ca23d07d9b",
+        "d": true,
+        "g": "b6ced6d5.137c9",
+        "name": "",
+        "group": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Set State False",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 380,
+        "y": 200,
+        "wires": [
+            [
+                "c0a3bab.5bd1e48"
+            ]
+        ]
+    }
+]
